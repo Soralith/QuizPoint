@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventure Quiz - Play</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -26,7 +26,7 @@
 
         <header>
             <h1>QuizPoint</h1>
-            <a href="/" class="back-btn">
+            <a href="index.html" class="back-btn">
                 <i class="fas fa-arrow-left"></i> Back to Home
             </a>
             <div class="progress-container">
@@ -48,38 +48,38 @@
             </div>
         </header>
        
-<main class="quiz-main">
-    <div class="level-indicator" id="level-indicator">
-        Level 1: Beginner Explorer
-    </div>
-   
-    <div id="question-container" class="hidden">
-        <h2 id="question">Loading questions...</h2>
-        <div id="options-container" class="hidden">
-            <!-- Options will be loaded by JavaScript -->
-        </div>
-    </div>
-   
-    <div id="joke-container" class="hidden">
-        <p id="joke-text"></p>
-    </div>
-   
-    <div id="results-container" class="hidden">
-        <h2 id="result-title"></h2>
-        <div class="score-display">
-            <span id="score-value">0</span>/<span id="total-questions">15</span>
-        </div>
-        <p id="result-message"></p>
-        <div class="result-actions">
-            <button id="play-again-btn" class="btn btn-play">
-                <i class="fas fa-redo"></i> Play Again
-            </button>
-            <a href="/" class="btn btn-about">
-                <i class="fas fa-home"></i> Back to Home
-            </a>
-        </div>
-    </div>
-</main>
+        <main class="quiz-main">
+            <div class="level-indicator" id="level-indicator">
+                Level 1: Beginner Explorer
+            </div>
+           
+            <div id="question-container" class="hidden">
+                <h2 id="question">Loading questions...</h2>
+                <div id="options-container" class="hidden">
+                    <!-- Options will be loaded by JavaScript -->
+                </div>
+            </div>
+           
+            <div id="joke-container" class="hidden">
+                <p id="joke-text"></p>
+            </div>
+           
+            <div id="results-container" class="hidden">
+                <h2 id="result-title"></h2>
+                <div class="score-display">
+                    <span id="score-value">0</span>/<span id="total-questions">15</span>
+                </div>
+                <p id="result-message"></p>
+                <div class="result-actions">
+                    <button id="play-again-btn" class="btn btn-play">
+                        <i class="fas fa-redo"></i> Play Again
+                    </button>
+                    <a href="index.html" class="btn btn-about">
+                        <i class="fas fa-home"></i> Back to Home
+                    </a>
+                </div>
+            </div>
+        </main>
 
         <div class="audio-controls-quiz">
             <button id="music-toggle-quiz" class="audio-btn">
@@ -108,7 +108,6 @@
         <source src="sounds/Quiz.backsound.mp3" type="audio/mpeg">
     </audio>
 
-
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
